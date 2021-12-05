@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+float mark;
+printf("Enetr the mark");
+scanf("%f",&mark);
+
+if(mark>50)
+{
+    printf("passed %f ");
+}else
+{
+    printf("failed");
+}
+
+return 0;
+}
